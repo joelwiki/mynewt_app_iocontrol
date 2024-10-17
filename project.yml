@@ -32,11 +32,9 @@ project.repositories:
 # This provides mirroring automatically for us.
 #
 repository.apache-mynewt-core:
-    type: github
+    type: git
     vers: 0.0.0
-    user: brianwyld
-    url:  https://github.com/brianwyld/mynewt-core.git
-#    repo: mynewt-core
+    url:  'https://github.com/brianwyld/mynewt-core.git'
 
 repository.mcuboot:
     type: github
@@ -55,10 +53,9 @@ repository.wyres-gitlab-mynewt-bsp:
     url: 'https://github.com/wyres/mynewt-wbasev2-bsp.git'
 
 repository.lorawan:
-    type: github
+    type: git
     vers: 0.0.0
-    user: ygaklk
-    repo: lorawan-api
+    repo: mynewt-lorawan
     url: 'https://github.com/wyres/mynewt-lorawan.git'
 
 repository.generic:
